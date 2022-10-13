@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class Botones : MonoBehaviour
 {
     //Método de Inicio, no colar Start que es un método reservado
+
+    public void Inicio()
+    {
+        SceneManager.LoadScene("PantallaInicio");
+    }
+
     public void Comenzar()
     {
         SceneManager.LoadScene("0");
@@ -16,10 +22,7 @@ public class Botones : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    public void Inicio()
-    {
-        SceneManager.LoadScene("PantallaInicio");
-    }
+
 
     public void Salir()
     {

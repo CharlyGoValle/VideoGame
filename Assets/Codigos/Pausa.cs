@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Pausa : MonoBehaviour
 {
     public GameObject PanelPausa;
-    public bool JuegoEnPausa = false;
+    public bool JuegoEnPausa = true;
 
     public void Reanudar()
     {

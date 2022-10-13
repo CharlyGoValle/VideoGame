@@ -48,7 +48,7 @@ TextureImporter:
       213: 838249934998533087
     second: rmzx_lavadevil_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -68,6 +68,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -76,9 +78,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -99,10 +101,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -118,6 +124,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -456,6 +474,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      rmzx_lavadevil_11: -3138466629060190554
+      rmzx_lavadevil_8: -9050535526235162047
+      rmzx_lavadevil_9: -3643224158148202981
+      rmzx_lavadevil_3: -724803374136679946
+      rmzx_lavadevil_10: 3227597557309922789
+      rmzx_lavadevil_4: -2587592715692308864
+      rmzx_lavadevil_7: 3313743414286339028
+      rmzx_lavadevil_2: 3466174533166891302
+      rmzx_lavadevil_13: 8532810355395640976
+      rmzx_lavadevil_6: -466431594897597007
+      rmzx_lavadevil_1: 7401791577477821082
+      rmzx_lavadevil_14: 838249934998533087
+      rmzx_lavadevil_0: 8929184935417640897
+      rmzx_lavadevil_5: -7837401552748727944
+      rmzx_lavadevil_12: 6812806037325099434
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
