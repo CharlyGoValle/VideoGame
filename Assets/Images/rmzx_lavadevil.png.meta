@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: bd78bf516cdff574fbdd19e3ee794810
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8929184935417640897
+    second: rmzx_lavadevil_0
+  - first:
+      213: 7401791577477821082
+    second: rmzx_lavadevil_1
+  - first:
+      213: 3466174533166891302
+    second: rmzx_lavadevil_2
+  - first:
+      213: -724803374136679946
+    second: rmzx_lavadevil_3
+  - first:
+      213: -2587592715692308864
+    second: rmzx_lavadevil_4
+  - first:
+      213: -7837401552748727944
+    second: rmzx_lavadevil_5
+  - first:
+      213: -466431594897597007
+    second: rmzx_lavadevil_6
+  - first:
+      213: 3313743414286339028
+    second: rmzx_lavadevil_7
+  - first:
+      213: -9050535526235162047
+    second: rmzx_lavadevil_8
+  - first:
+      213: -3643224158148202981
+    second: rmzx_lavadevil_9
+  - first:
+      213: 3227597557309922789
+    second: rmzx_lavadevil_10
+  - first:
+      213: -3138466629060190554
+    second: rmzx_lavadevil_11
+  - first:
+      213: 6812806037325099434
+    second: rmzx_lavadevil_12
+  - first:
+      213: 8532810355395640976
+    second: rmzx_lavadevil_13
+  - first:
+      213: 838249934998533087
+    second: rmzx_lavadevil_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rmzx_lavadevil_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1131
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c77651d366daeb70800000000000000
+      internalID: 8929184935417640897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1125
+        width: 69
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a923b0d293278b660800000000000000
+      internalID: 7401791577477821082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1123
+        width: 55
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210be29f535a1030800000000000000
+      internalID: 3466174533166891302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1122
+        width: 52
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f12490eb2bf0f5f0800000000000000
+      internalID: -724803374136679946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1121
+        width: 50
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08685cd7226071cd0800000000000000
+      internalID: -2587592715692308864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1122
+        width: 49
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8713156efc4fb3390800000000000000
+      internalID: -7837401552748727944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1124
+        width: 48
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1c1a8fe6e689f0800000000000000
+      internalID: -466431594897597007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1125
+        width: 35
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbc35d0418ccfd20800000000000000
+      internalID: 3313743414286339028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1128
+        width: 33
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a33b304e9066280800000000000000
+      internalID: -9050535526235162047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1170
+        width: 15
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e64784eeaa07dc0800000000000000
+      internalID: -3643224158148202981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_10
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1162
+        width: 15
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed5069b0eabacc20800000000000000
+      internalID: 3227597557309922789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_11
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1148
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae137baa3de174d0800000000000000
+      internalID: -3138466629060190554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1130
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa13662cef2fb8e50800000000000000
+      internalID: 6812806037325099434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_13
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1131
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb1293fc1aa6670800000000000000
+      internalID: 8532810355395640976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rmzx_lavadevil_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1204
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3f498efdf02ab00800000000000000
+      internalID: 838249934998533087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
