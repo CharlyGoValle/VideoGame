@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         if (vivo)
         {
 
-            if (MainCamera.position.y > Aventurero.position.y+5)
+            if (MainCamera.position.y > Aventurero.position.y+8)
             {
                 Energia = 0;
             }
@@ -122,10 +122,10 @@ public class Player : MonoBehaviour
             {
                 efectos.clip = Salto;
                 efectos.Play();
-                cuerpo.AddForce(Vector2.up * fuerzaSalto);
+                cuerpo.AddForce(new Vector2(0, fuerzaSalto));
             }
 
-           anim.SetBool("pisar", pisando);
+            anim.SetBool("pisar", pisando);
            anim.SetFloat("alt", cuerpo.velocity.y);
         }
      
