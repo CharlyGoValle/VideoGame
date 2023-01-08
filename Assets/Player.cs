@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
     float radioPies = 0.2f;
     public int Energia;
-    public float fuerzaSalto = 0f;
+    public float fuerzaSalto = 1f;
     AudioSource efectos;
     public AudioClip caminar;
     public AudioClip Ataque1;
