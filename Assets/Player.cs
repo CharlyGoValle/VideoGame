@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     float radioPies = 0.2f;
     public int Energia;
-    public float fuerzaSalto;
+    public float fuerzaSalto = 1f;
     AudioSource efectos;
     public AudioClip caminar;
     public AudioClip Ataque1;
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         if (vivo)
         {
 
-            if (MainCamera.position.y > Aventurero.position.y+8)
+            if (MainCamera.position.y > Aventurero.position.y+3)
             {
                 Energia = 0;
             }
