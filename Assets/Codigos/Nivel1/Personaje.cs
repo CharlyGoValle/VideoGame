@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Personaje : MonoBehaviour
 {
@@ -50,6 +51,16 @@ public class Personaje : MonoBehaviour
         {
             Jump();
         }
+        if (Input.GetKey(KeyCode.P))
+        {
+            Console.Write("Cambiando a p");
+            animator.SetBool("attack", true);
+            animator.Play("Ataque1");
+            /*efectos.clip = Ataque1;
+            efectos.Play();**/
+        }
+
+        animator.SetBool("attack", false);
 
 
     }
