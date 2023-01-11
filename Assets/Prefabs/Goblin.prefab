@@ -110,7 +110,7 @@ SpriteRenderer:
   m_SortingLayerID: -159467049
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -842333443, guid: 91b00f322d1b9db4397fcf3631ab4b74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +118,7 @@ SpriteRenderer:
   m_Size: {x: 0.33, y: 0.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1866878514333465796
@@ -166,13 +166,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.28000003, y: -0.35000002}
-      - {x: 0.060000002, y: -0.15}
-      - {x: 0.18, y: -0.35000002}
-      - {x: 0.22000001, y: 0.29000002}
-      - {x: -0.32000002, y: 0.050000004}
-      - {x: -0.020000001, y: -0.010000001}
-      - {x: -0.20000002, y: -0.29000002}
+    - - {x: -0.14000002, y: -0.17500001}
+      - {x: 0.030000001, y: -0.075}
+      - {x: 0.09, y: -0.17500001}
+      - {x: 0.11000001, y: 0.14500001}
+      - {x: -0.16000001, y: 0.025000002}
+      - {x: -0.010000001, y: -0.0050000004}
+      - {x: -0.10000001, y: -0.14500001}
 --- !u!114 &1866878514333465798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,13 +189,13 @@ MonoBehaviour:
   DistanceThreshold: 8
   Scale: 1
   Decompose: 0
-  RunInPlayMode: 0
-  UseCache: 0
+  RunInPlayMode: 1
+  UseCache: 1
   lastAlphaTolerance: 20
   lastScale: 1
   lastDistanceThreshold: 8
   lastDecompose: 0
-  lastSprite: {fileID: 0}
+  lastSprite: {fileID: -842333443, guid: 91b00f322d1b9db4397fcf3631ab4b74, type: 3}
   lastRect:
     serializedVersion: 2
     x: 58
@@ -240,3 +240,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d5e80a80cda5174cbb762c530cb3ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
