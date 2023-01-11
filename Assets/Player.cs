@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement; //Libreria que se encarga de administrar esce
 public class Player : MonoBehaviour
 {
     Animator anim;
-    Rigidbody2D cuerpo;
     bool viendoDercha = true;
 
+    private Rigidbody2D cuerpo;
     public bool pisando = false;
     public LayerMask queEspiso;
     public Transform pies;
+    public float speed;
 
     public Transform MainCamera;
     public Transform Aventurero;
@@ -62,7 +63,7 @@ public class Player : MonoBehaviour
         if (vivo)
         {
 
-            if (MainCamera.position.y > Aventurero.position.y+5)
+            if (MainCamera.position.y > Aventurero.position.y+3)
             {
                 Energia = 0;
             }
@@ -97,21 +98,23 @@ public class Player : MonoBehaviour
 
             float mover = Input.GetAxis("Horizontal");
             anim.SetFloat("vel", Mathf.Abs(mover));
-            cuerpo.velocity = new Vector2(mover * 5f, cuerpo.velocity.y);
-
+            cuerpo.velocity = new Vector2(mover*(5f*speed), cuerpo.velocity.y);
+            
             if (viendoDercha && mover < 0)
             {
                 InvertirDibujo();
                 efectos.clip = caminar;
                 efectos.Play();
+                efectos.Stop();
             }
             if (!viendoDercha && mover > 0)
             {
                 efectos.clip = caminar;
                 efectos.Play();
                 InvertirDibujo();
-            }
+                efectos.Stop();
 
+            }
 
             pisando = Physics2D.OverlapCircle(pies.position, radioPies, queEspiso);
 
@@ -121,8 +124,9 @@ public class Player : MonoBehaviour
                 efectos.Play();
                 cuerpo.AddForce(new Vector2(0, fuerzaSalto));
             }
+
             anim.SetBool("pisar", pisando);
-            anim.SetFloat("alt", cuerpo.velocity.y);
+           anim.SetFloat("alt", cuerpo.velocity.y);
         }
      
     }
