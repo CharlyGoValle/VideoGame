@@ -1,0 +1,727 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7712401545565920477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 994184553821063883, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105356, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105356, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105356, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105357, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105357, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105393, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105393, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -159467049
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105393, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105394, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: Morir
+      value: 
+      objectReference: {fileID: 8300000, guid: 1edd1f7b262583344aa34ad3cd152d0f, type: 3}
+    - target: {fileID: 994184554449105394, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: Energia
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105394, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: Aventurero
+      value: 
+      objectReference: {fileID: 7407288624862932266}
+    - target: {fileID: 994184554449105394, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: MainCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105394, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: fuerzaSalto
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105398, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530100, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_Name
+      value: Aventurero
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994184555402530101, guid: 8f12ea25637b77846b7bb98894b569d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 994184554449105356, guid: 8f12ea25637b77846b7bb98894b569d1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8f12ea25637b77846b7bb98894b569d1, type: 3}
+--- !u!4 &7407288624862932266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 994184554449105399, guid: 8f12ea25637b77846b7bb98894b569d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7712401545565920477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7407288624862932267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 994184554449105398, guid: 8f12ea25637b77846b7bb98894b569d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7712401545565920477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &58988931
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407288624862932267}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.37}
+    newSize: {x: 0.34, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.045, y: -0.17}
+      - {x: 0.075, y: -0.080000006}
+      - {x: 0.005, y: 0.12}
+      - {x: -0.045, y: -0.13}
+--- !u!114 &58988926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407288624862932267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 20
+  DistanceThreshold: 8
+  Scale: 1
+  Decompose: 0
+  RunInPlayMode: 1
+  UseCache: 1
+  lastAlphaTolerance: 20
+  lastScale: 1
+  lastDistanceThreshold: 8
+  lastDecompose: 0
+  lastSprite: {fileID: 21300000, guid: d0ed85efcabe6b84fb1642c0216773fd, type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 50
+    height: 37
+  lastOffset: {x: 25, y: 18.5}
+  lastPixelsPerUnit: 100
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache:
+  - Key:
+      Texture: {fileID: 2800000, guid: 1ed4773cbcb858a4a98515ce1aee20e8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.045, y: -0.17}
+        - {x: 0.075, y: -0.080000006}
+        - {x: 0.005, y: 0.11}
+        - {x: -0.045, y: -0.13}
+  - Key:
+      Texture: {fileID: 2800000, guid: d0ed85efcabe6b84fb1642c0216773fd, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.045, y: -0.17}
+        - {x: 0.075, y: -0.080000006}
+        - {x: 0.005, y: 0.12}
+        - {x: -0.045, y: -0.13}
+  - Key:
+      Texture: {fileID: 2800000, guid: f696ce40a8fd7124e86513d1c27f6cd9, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.045, y: -0.17}
+        - {x: 0.085, y: -0.06}
+        - {x: 0.005, y: 0.12}
+        - {x: -0.045, y: -0.13}
+  - Key:
+      Texture: {fileID: 2800000, guid: a287099369cc85b4c9c9a0a45077e05c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 27
+        height: 22
+    Value:
+      List:
+      - Array:
+        - {x: -0.13000001, y: -0.105}
+        - {x: 0.120000005, y: -0.105}
+        - {x: 0.13000001, y: 0.015000001}
+        - {x: 0.040000003, y: 0.105}
+        - {x: -0.080000006, y: -0.035}
+  - Key:
+      Texture: {fileID: 2800000, guid: 75fe7ed18921f254e82e383d85bbfbd9, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 25
+        height: 20
+    Value:
+      List:
+      - Array:
+        - {x: -0.05, y: -0.095}
+        - {x: 0.12, y: -0.095}
+        - {x: 0.12, y: 0.075}
+        - {x: -0.03, y: 0.044999998}
+        - {x: -0.05, y: -0.085}
+  - Key:
+      Texture: {fileID: 2800000, guid: c406ca592691b2442af87ff369aac40e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 34
+        height: 36
+    Value:
+      List:
+      - Array:
+        - {x: -0.16499999, y: -0.17500001}
+        - {x: 0.145, y: -0.065000005}
+        - {x: 0.105, y: 0.14500001}
+        - {x: -0.085, y: 0.155}
+        - {x: -0.015000001, y: 0.075}
+        - {x: -0.12785715, y: -0.085}
+        - {x: 0.055000003, y: -0.015000001}
+        - {x: -0.155, y: -0.155}
+  - Key:
+      Texture: {fileID: 2800000, guid: d8135383986df3b4e887858f507831ea, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 27
+        height: 36
+    Value:
+      List:
+      - Array:
+        - {x: -0.13000001, y: -0.17500001}
+        - {x: 0.040000003, y: -0.17500001}
+        - {x: -0.020000001, y: 0.105000004}
+        - {x: 0.13000001, y: 0.155}
+        - {x: -0.07, y: 0.125}
+        - {x: -0.11000001, y: -0.14500001}
+  - Key:
+      Texture: {fileID: 2800000, guid: 6e036964ba977d942bf4664b12d2eeb0, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 19
+        height: 32
+    Value:
+      List:
+      - Array:
+        - {x: -0.09, y: -0.155}
+        - {x: 0.08, y: -0.155}
+        - {x: 0.09, y: 0.065}
+        - {x: -0.04, y: 0.155}
+        - {x: -0.07, y: -0.125}
+  - Key:
+      Texture: {fileID: 2800000, guid: bb0cc4c78bf7d9b4dbd98599c886c2ee, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 20
+        height: 26
+    Value:
+      List:
+      - Array:
+        - {x: -0.065, y: -0.12499999}
+        - {x: 0.095, y: -0.044999998}
+        - {x: 0.044999998, y: 0.12499999}
+        - {x: -0.095, y: 0.055}
+        - {x: 0.055000003, y: 0.015}
+        - {x: -0.044999998, y: -0.08499999}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4d3ebfa429dd9f648a390f3e95ae3e68, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 20
+        height: 26
+    Value:
+      List:
+      - Array:
+        - {x: -0.075, y: -0.12499999}
+        - {x: 0.095, y: -0.044999998}
+        - {x: 0.035, y: 0.12499999}
+        - {x: -0.095, y: 0.065}
+        - {x: -0.055000003, y: -0.09499999}
+  - Key:
+      Texture: {fileID: 2800000, guid: bfdf1a3cb17dc0640ba6b7615340a179, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 48
+        height: 23
+    Value:
+      List:
+      - Array:
+        - {x: -0.105, y: -0.11000001}
+        - {x: 0.235, y: 0.010000001}
+        - {x: -0.055, y: 0.11000001}
+        - {x: -0.195, y: -0.03}
+        - {x: -0.044999998, y: -0.03}
+        - {x: -0.16499999, y: -0.07}
+      - Array:
+        - {x: 0.055, y: -0.040000003}
+        - {x: 0.055, y: -0.020000001}
+      - Array:
+        - {x: 0.15499999, y: -0.010000001}
+        - {x: 0.065, y: 0.05}
+        - {x: 0.16499999, y: 0}
+  - Key:
+      Texture: {fileID: 2800000, guid: cf2538bf783b7a84f87355ad73e13047, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 34
+        height: 20
+    Value:
+      List:
+      - Array:
+        - {x: -0.015000001, y: -0.095}
+        - {x: 0.145, y: -0.095}
+        - {x: 0.155, y: 0.075}
+        - {x: -0.16499999, y: 0.035}
+        - {x: 0.145, y: -0.015000001}
+        - {x: 0.005, y: -0.065}
+  - Key:
+      Texture: {fileID: 2800000, guid: 27bd33804ab28424d9e46551acaba2d3, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 34
+        height: 20
+    Value:
+      List:
+      - Array:
+        - {x: -0.015000001, y: -0.095}
+        - {x: 0.145, y: -0.095}
+        - {x: 0.155, y: 0.075}
+        - {x: -0.16499999, y: 0.044999998}
+        - {x: 0.145, y: -0.015000001}
+        - {x: 0.005, y: -0.065}
+      - Array:
+        - {x: 0.015000001, y: 0.035}
+        - {x: -0.005, y: 0.044999998}
+  - Key:
+      Texture: {fileID: 2800000, guid: 367126364bf773246ab4a104ccea9650, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 20
+        height: 28
+    Value:
+      List:
+      - Array:
+        - {x: -0.065, y: -0.135}
+        - {x: 0.095, y: -0.0050000004}
+        - {x: 0.055000003, y: 0.135}
+        - {x: -0.055000003, y: -0.095}
+  - Key:
+      Texture: {fileID: 2800000, guid: 623a4177d6e709f42a7c3117f1fbd4d1, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 20
+        height: 27
+    Value:
+      List:
+      - Array:
+        - {x: 0.075, y: -0.13000001}
+        - {x: 0.035, y: 0.13000001}
+        - {x: -0.095, y: 0.05}
+        - {x: 0.065, y: -0.120000005}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3ed9d51ca2d7f064683c0b8d85908d26, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 20
+        height: 25
+    Value:
+      List:
+      - Array:
+        - {x: 0.035, y: -0.12}
+        - {x: 0.065, y: 0.12}
+        - {x: -0.095, y: 0.07}
+        - {x: 0.015000001, y: -0.08}
+  - Key:
+      Texture: {fileID: 2800000, guid: 47f83d6a59194c8458cfc5e6fd7b3257, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 23
+        height: 28
+    Value:
+      List:
+      - Array:
+        - {x: -0.080000006, y: -0.135}
+        - {x: 0.11000001, y: 0.015000001}
+        - {x: 0.03, y: 0.135}
+        - {x: -0.06, y: -0.074999996}
+  - Key:
+      Texture: {fileID: 2800000, guid: eb133e68b1a6f56418c4103067f66e6e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 20
+        height: 27
+    Value:
+      List:
+      - Array:
+        - {x: 0.075, y: -0.13000001}
+        - {x: 0.025, y: 0.13000001}
+        - {x: -0.095, y: 0.05}
+        - {x: 0.065, y: -0.120000005}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8b7c4a894d57f5d4c94e867235780a67, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 20
+        height: 25
+    Value:
+      List:
+      - Array:
+        - {x: 0.035, y: -0.12}
+        - {x: 0.065, y: 0.12}
+        - {x: -0.095, y: 0.07}
+        - {x: 0.015000001, y: -0.08}
+  - Key:
+      Texture: {fileID: 2800000, guid: f57223efba34d31468072f2d1464175e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.075, y: -0.17}
+        - {x: 0.075, y: -0.17}
+        - {x: 0.115, y: 0.010000001}
+        - {x: -0.015, y: 0.06}
+        - {x: -0.075, y: -0.16000001}
+  - Key:
+      Texture: {fileID: 2800000, guid: 25436b7f60bb89249b0b35c2f724978b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.075, y: -0.17}
+        - {x: 0.075, y: -0.17}
+        - {x: 0.035, y: 0.06}
+        - {x: -0.075, y: -0.16000001}
+  - Key:
+      Texture: {fileID: 2800000, guid: 7b7c9dc5af79b73409b53343939e8766, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.075, y: -0.17}
+        - {x: 0.075, y: -0.17}
+        - {x: 0.035, y: 0.06}
+        - {x: -0.055, y: -0.13}
+  - Key:
+      Texture: {fileID: 2800000, guid: e38a5950c657fd34484b6d8af025e603, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.055, y: -0.17}
+        - {x: 0.075, y: -0.17}
+        - {x: 0.095, y: 0.020000001}
+        - {x: -0.085, y: -0.03}
+        - {x: 0.075, y: -0.099999994}
+        - {x: -0.055, y: -0.16000001}
+  - Key:
+      Texture: {fileID: 2800000, guid: fc4c63e84fdfef2479c44227093b8665, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.04166666, y: -0.15}
+        - {x: 0.095, y: -0.17}
+        - {x: 0.095, y: -0.020000001}
+        - {x: -0.045, y: -0.14}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0038a50ac52ee9b48b58e24cd75584f3, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.035, y: -0.17}
+        - {x: 0.095, y: -0.17}
+        - {x: 0.095, y: -0.03}
+        - {x: -0.035, y: -0.16000001}
+  - Key:
+      Texture: {fileID: 2800000, guid: 2554270d04ce1da40a3f96d653ea0cae, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 37
+    Value:
+      List:
+      - Array:
+        - {x: -0.04166666, y: -0.15}
+        - {x: 0.095, y: -0.17}
+        - {x: 0.095, y: -0.020000001}
+        - {x: -0.045, y: -0.14}
+  - Key:
+      Texture: {fileID: 2800000, guid: 561ad122cc57d2d43bd1dd3a950d422e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 20
+        height: 24
+    Value:
+      List:
+      - Array:
+        - {x: -0.044999998, y: -0.114999995}
+        - {x: 0.095, y: -0.015}
+        - {x: 0.035, y: 0.114999995}
+        - {x: -0.044999998, y: -0.095}
+  - Key:
+      Texture: {fileID: 2800000, guid: 71091efab4f92874aa954596702c0531, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 19
+        height: 27
+    Value:
+      List:
+      - Array:
+        - {x: -0.06, y: -0.13000001}
+        - {x: 0.06, y: -0.05}
+        - {x: 0.04, y: 0.13000001}
+        - {x: -0.06, y: -0.11000001}
+  - Key:
+      Texture: {fileID: 2800000, guid: d728bafc16dff284d922efcb98cab043, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 21
+        height: 23
+    Value:
+      List:
+      - Array:
+        - {x: -0.02, y: -0.11000001}
+        - {x: 0.08, y: -0.080000006}
+        - {x: 0.04, y: 0.11000001}
+        - {x: -0.099999994, y: -0.05}
+        - {x: -0.01, y: 0.010000001}
+        - {x: -0.02, y: -0.09}
+--- !u!114 &58988932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407288624862932267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0457f5581f5192f4a9d5043c132f1951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
