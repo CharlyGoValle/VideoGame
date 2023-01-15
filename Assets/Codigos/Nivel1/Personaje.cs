@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
 using System;
 
 public class Personaje : MonoBehaviour
@@ -11,6 +12,7 @@ public class Personaje : MonoBehaviour
     private Animator animator;
     private float horizontal;
     private bool grounded;
+    public int Energia=100;
     
 
     public float speed;
@@ -25,18 +27,25 @@ public class Personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Energia == 0)
+        {
+
+            DestroyPersonaje();
+        }
 
         horizontal = Input.GetAxisRaw("Horizontal");
         animator.SetBool("running",horizontal!=0.0f);
         if(horizontal < 0.0f)
         {
             transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            animator.SetBool("attack", false);
         }
         else
         {
             if (horizontal > 0.0f)
             {
                 transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                animator.SetBool("attack", false);
             }
         }
         if(Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
@@ -53,16 +62,8 @@ public class Personaje : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.P))
         {
-            Console.Write("Cambiando a p");
             animator.SetBool("attack", true);
-            animator.Play("Ataque1");
-            /*efectos.clip = Ataque1;
-            efectos.Play();**/
         }
-
-        animator.SetBool("attack", false);
-
-
     }
     private void FixedUpdate()
     {
@@ -72,5 +73,17 @@ public class Personaje : MonoBehaviour
     private void Jump()
     {
         rigidBody2D.AddForce(Vector2.up*jumpForce);
+    }
+    public void DestroyPersonaje()
+    {
+        Thread.Sleep(2000);
+        Destroy(gameObject);
+    }
+
+
+    public void Hit()
+    {
+        Energia -= 50;
+        if (Energia == 0) Destroy(gameObject);
     }
 }

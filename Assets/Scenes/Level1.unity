@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 446706903}
   m_Layer: 0
   m_Name: adventurer-idle-00
-  m_TagString: Untagged
+  m_TagString: Personaje
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1008,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 007892f3cd0ec154882e5e522824dba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Energia: 100
   speed: 50
   jumpForce: 150
 --- !u!95 &446706903
@@ -1596,10 +1597,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 171942623}
     m_Modifications:
+    - target: {fileID: 2707255405117758381, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: m_TagString
+      value: objeto
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707255405117758389, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: Personaje
+      value: 
+      objectReference: {fileID: 446706897}
     - target: {fileID: 2707255406177182048, guid: 146fe875c17c2514daf2a128ff173a33,
         type: 3}
       propertyPath: m_Name
       value: Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707255406177182048, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: m_TagString
+      value: objeto
       objectReference: {fileID: 0}
     - target: {fileID: 2707255406177182062, guid: 146fe875c17c2514daf2a128ff173a33,
         type: 3}
@@ -2574,10 +2590,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 171942623}
     m_Modifications:
+    - target: {fileID: 2707255405117758381, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: m_TagString
+      value: objeto
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707255405117758389, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: Personaje
+      value: 
+      objectReference: {fileID: 446706897}
     - target: {fileID: 2707255406177182048, guid: 146fe875c17c2514daf2a128ff173a33,
         type: 3}
       propertyPath: m_Name
       value: Skeleton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707255406177182048, guid: 146fe875c17c2514daf2a128ff173a33,
+        type: 3}
+      propertyPath: m_TagString
+      value: objeto
       objectReference: {fileID: 0}
     - target: {fileID: 2707255406177182062, guid: 146fe875c17c2514daf2a128ff173a33,
         type: 3}
