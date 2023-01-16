@@ -11,13 +11,14 @@ public class Personaje : MonoBehaviour
     private Animator animator;
     private float horizontal;
     private bool grounded;
-    
+    int Energia;
 
     public float speed;
     public float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
+        Energia = 100;
         rigidBody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -26,6 +27,7 @@ public class Personaje : MonoBehaviour
     void Update()
     {
 
+        animator.SetBool("attack", false);
         horizontal = Input.GetAxisRaw("Horizontal");
         animator.SetBool("running",horizontal!=0.0f);
         if(horizontal < 0.0f)
@@ -60,7 +62,6 @@ public class Personaje : MonoBehaviour
             efectos.Play();**/
         }
 
-        animator.SetBool("attack", false);
 
 
     }
@@ -72,5 +73,13 @@ public class Personaje : MonoBehaviour
     private void Jump()
     {
         rigidBody2D.AddForce(Vector2.up*jumpForce);
+    }
+    public void Hit()
+    {
+        Energia = Energia-50;
+        if (Energia == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

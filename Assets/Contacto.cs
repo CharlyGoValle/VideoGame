@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement; //Libreria que se encarga de administrar esce
 
 public class Contacto : MonoBehaviour
 {
+    public GameObject personaje;
     public Transform target; // the main character
 
     void OnCollisionEnter2D(Collision2D contacto)
@@ -14,6 +15,11 @@ public class Contacto : MonoBehaviour
         {
             contacto.gameObject.GetComponent<Player>().Energia = 0;
         }
+        if (contacto.gameObject.tag == "Adv")
+        {
+            contacto.gameObject.GetComponent<Personaje>().Hit();
+        }
+
     }
     void OnTriggerEnter2D(Collider2D contacto)
     {
@@ -28,6 +34,14 @@ public class Contacto : MonoBehaviour
         if (target != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, Time.deltaTime);
+        }
+        else
+        {
+            if (personaje == null) return;
+            Vector3 direction = personaje.transform.position - transform.position;
+            if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+            else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+
         }
     }
 
