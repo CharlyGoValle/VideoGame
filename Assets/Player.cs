@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; //User Interface
 using UnityEngine.SceneManagement; //Libreria que se encarga de administrar escenas
-
+using System.Threading;
 public class Player : MonoBehaviour
 {
     Animator anim;
@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
 
 
     public bool vivo = true;
+    public int atacar ;
 
     public Text energiaPts;
     public Slider energiaBarra;
@@ -52,13 +53,23 @@ public class Player : MonoBehaviour
                 Puntos.ValPuntos += 10;
                 Destroy(col.gameObject);
             }
+           
+    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Adv" && atacar == 1)
+        {
+            Puntos.ValPuntos += 20;
+            Destroy(col.gameObject);
+            Energia = Energia - 10;
         }
+    }
 
 
         // Update is called once per frame
         void Update()
     {
-
+        atacar = 0;
 
         if (vivo)
         {
@@ -85,6 +96,7 @@ public class Player : MonoBehaviour
                 anim.Play("Ataque1");
                 efectos.clip = Ataque1;
                 efectos.Play();
+                atacar = atacar+1;
             }
 
             if (Input.GetKey(KeyCode.O))
@@ -92,6 +104,7 @@ public class Player : MonoBehaviour
                 anim.Play("Ataque2");
                 efectos.clip = Ataque2;
                 efectos.Play();
+                atacar = atacar + 1;
             }
 
 
@@ -117,12 +130,21 @@ public class Player : MonoBehaviour
             }
 
             pisando = Physics2D.OverlapCircle(pies.position, radioPies, queEspiso);
+            if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
+            {
+                pisando = true;
+            }
+            else
+            {
+                pisando = false;
+            }
 
             if (Input.GetKey(KeyCode.UpArrow) && pisando)
             {
                 efectos.clip = Salto;
                 efectos.Play();
                 cuerpo.AddForce(new Vector2(0, fuerzaSalto));
+                //cuerpo.AddForce(Vector2.up * fuerzaSalto);
             }
 
             anim.SetBool("pisar", pisando);
@@ -144,5 +166,9 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("0");
+    }
+    public void Hit()
+    {
+
     }
 }
